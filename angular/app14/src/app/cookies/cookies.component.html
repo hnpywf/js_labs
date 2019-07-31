@@ -1,0 +1,10 @@
+<h2>Печенье</h2>
+<div style="float: left; display: inline-block;"><ul class="cookies list">
+	<li *ngFor="let cookie of cookies" (click)="onSelect(cookie)" [class.selected] = "hero === selectedHero">
+		<span class="badge"><i>Номер:<b>{{cookie.id}}</b></i> </span><br> Название: <b>{{cookie.name}}</b><img  src="https://avatanplus.com/files/resources/mid/578cdb575613a155fe38cd39.png" alt="" width="50px">
+	</li>
+</ul>
+</div>
+
+
+<app-cookie-detail [cookie]="selectedCookie"></app-cookie-detail>

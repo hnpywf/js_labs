@@ -1,0 +1,10 @@
+<div *ngIf="cookie">
+	<h2><i>{{cookie.name | uppercase}}</i> - подробности</h2>
+	<div><span>Номер: </span>{{cookie.id}}</div>
+	<div>
+		<label>
+			Название: <input [(ngModel)]="cookie.name" placeholder="name"/><br>
+			Цена: <input  [(ngModel)]="cookie.price" placeholder="price">
+		</label>
+	</div>
+</div>

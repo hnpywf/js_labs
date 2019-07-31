@@ -1,0 +1,16 @@
+doctype html
+html(lang='en')
+	head 
+		meta(charset='utf-8')
+		title JADELAB8
+		
+		link(rel="stylesheet" href="http://localhost/main.css")
+	body
+		div(class="header") 
+			include header.jade
+		div(class="main-full") 
+			p(class="head-text").
+				Hello 
+			include body.jade
+		div(class="footer")
+			include footer.jade

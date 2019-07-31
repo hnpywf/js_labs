@@ -1,0 +1,10 @@
+{
+	"name": "MusStore",
+	"version": "2.2.8",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependecies": {
+		"express": "4.16.4"
+	}
+}

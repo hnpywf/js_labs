@@ -1,0 +1,11 @@
+div(class="footerlz").
+	footer 
+script.
+		var clicksnum = 0;
+		function clicker(){
+		clicksnum = clicksnum + 1;
+		console.log(clicksnum);
+		document.getElementById("nums").innerHTML = clicksnum;}
+
+button(onclick="clicker()" ).
+	На меня нажали уже <p id="nums">0</p> раз

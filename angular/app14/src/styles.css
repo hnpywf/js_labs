@@ -1,0 +1,11 @@
+body
+{
+	background-image: url(\images/bg.jpg);
+	font-family: Century Gothic, italic, bold;
+}
+
+.list 
+{
+	list-style: none;
+	font-size: 1.8em;
+}

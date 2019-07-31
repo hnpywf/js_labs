@@ -1,0 +1,38 @@
+
+body{
+	background-color: lightgray;
+	overflow: hidden;
+}
+
+span{
+	font-weight: bold;
+}
+
+
+.text1{
+	font-size: 1.2em;
+	  font-family: Century Gothic, Regular;
+	  text-decoration: none;
+	  text-align: left;
+	  margin-left: 2vh;
+}
+
+.text2{
+	font-size: 1.2em;
+	  font-family: Century Gothic, Regular;
+	  text-decoration: none;
+	  text-align: right;
+	  margin-left: 2vh;
+}
+
+.ober{
+	display: inline-flex;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+
+.instead{
+	width: 25px;
+	height: auto;
+}
